@@ -12,7 +12,7 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: rgba(35, 31, 32, 1);
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(234, 234, 234, 1);
     width: 100%;
     padding: 0;
@@ -20,7 +20,7 @@ body {
     margin-right: 0;
     font-weight: 300;
     width:100%;
-    font-family: 'ralewayregular';
+    font-family: 'source_sans_proregular';
 }
 .preloader {
     position: fixed;
@@ -660,7 +660,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title{
-    margin-bottom:90px;
+    margin-bottom:40px;
 }
 .head_title h3{
     color:#413d4b;
@@ -847,15 +847,15 @@ input::-ms-input-placeholder {
     background: #202020;
 }
 .main_service .single_service.single_service_text .single_service_icon i{
-    background: #f4f5f9;
+    background: rgba(35, 31, 32, 1);
     width:70px;
     height: 70px;
     line-height: 70px;
     text-align: center;
-    color:rgba(35, 31, 32, 1);
+    color:rgba(173, 151, 71, 1);
     position: relative;
     z-index: 9;
-    border:5px solid rgba(0, 0, 0, 0.2);
+    border:5px solid rgba(173, 151, 71, 0.8);
     border-radius: 50%;
     font-size: 1.875rem;
 }
@@ -948,7 +948,7 @@ button.btn-md:hover {
     top:10%;
     width:80%;
     height: 80%;
-    background: rgba(173, 151, 71, 0.6);
+    background: rgba(173, 151, 71, 0.8);
     color:#fff;
     padding: 20px;
     opacity: 0;
