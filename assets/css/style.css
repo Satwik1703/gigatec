@@ -154,29 +154,33 @@ h5 {
     line-height: 2rem;
 }
 h1 {
-    font-family: 'cursive';
+    /* font-family: 'cursive'; */
+    font-family: 'Covered By Your Grace', cursive;
     font-style: italic;
     font-size: 5.143rem;
     line-height: 5.5rem;
     color:#fff;
-    letter-spacing: .4rem;
+    letter-spacing: .1rem;
 }
 h2 {
   color: rgba(173, 151, 71, 1);
-    font-family: 'source_sans_probold';
+    /* font-family: 'source_sans_probold'; */
+    font-family: 'Saira Condensed', sans-serif;
     font-size:2.571rem;
     line-height: 3rem;
     text-transform: uppercase;
 
 }
 h3 {
-    font-family: 'source_sans_proregular';
+    /* font-family: 'source_sans_proregular'; */
+    font-family: 'Saira Condensed', sans-serif;
     font-size:1.714rem;
     line-height: 2.5rem;
     color:rgba(234, 234, 234, 1);
 }
 h4 {
-    font-family: 'open_sanssemibold';
+    /* font-family: 'open_sanssemibold'; */
+    font-family: 'Saira Condensed', sans-serif;
     font-size: 1.286rem;
     line-height: 2rem;
     margin-bottom: 1rem;
@@ -592,9 +596,10 @@ input::-ms-input-placeholder {
 .navbar-brand {
   transform: translateY(-50%);
   top: -50%;
-  transform: translateX(-50%);
-  left: 50%;
+  transform: translateX(20%);
+  left: -10%;
   position: absolute;
+  /* padding: 0px 15px; */
 }
 .navbar-brand>img {
     max-width: 80%;
@@ -1385,7 +1390,8 @@ li .single_team_text p{
     margin-bottom: 19px;
 }
 .contact_info_content h4{
-    font-family: 'open_sansregular';
+    /* font-family: 'open_sansregular'; */
+    font-family: 'Saira Condensed', sans-serif;
 }
 .contact_info_content h4{
   color: rgba(173, 151, 71, 1);
@@ -1506,3 +1512,104 @@ li .single_team_text p{
     text-decoration: none;
 
 }
+
+/* Teams------------------------------------------------------- */
+.our-team{
+    position: relative;
+    text-align:center;
+    overflow: hidden;
+    box-shadow:0 0 5px #808080;
+}
+.demo
+{
+  padding-bottom: 100px;
+}
+.heading-title
+{
+	margin-bottom: 50px;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.40s linear 0s;
+}
+
+.our-team:hover img{
+    transform: scale(1.3);
+    transition:transform 3s linear 0s;
+}
+
+.our-team .team-content{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    padding: 40px 20px;
+    background: rgba(216, 195, 119, 0.85);
+    transition: all 0.50s ease-in-out;
+}
+
+.our-team:hover .team-content{
+    opacity: 1;
+}
+
+.our-team .team-prof{
+    margin:20px 0 20px 0;
+    position:relative;
+    top:13%;
+}
+
+.our-team .team-prof a{
+    color:rgba(35, 31, 32, 1);
+    font-size:28px;
+    font-weight: bold;
+    letter-spacing:1px;
+    text-transform: uppercase;
+}
+
+.our-team .team-prof a:hover{
+    color:rgba(234, 234, 234, 1);
+    text-decoration:none;
+}
+
+.our-team .team-prof small{
+    color: #f11b05;
+    display: block;
+    font-size:18px;
+    margin-top:10px;
+    text-transform: uppercase;
+}
+
+.our-team .social-link{
+    padding:0;
+    margin:0;
+    position:relative;
+    top:13%;
+}
+
+.our-team .social-link li{
+    list-style:none;
+    margin-right:5px;
+    display:inline-block;
+}
+
+.our-team .social-link li a{
+    width: 35px;
+    height: 35px;
+    line-height:35px;
+    border-radius:50%;
+    color:#fff;
+    background:rgba(35, 31, 32, 0.7);
+}
+
+.our-team .social-link li a:hover{
+    background:#333;
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 990px){
+    .our-team{  margin-bottom:20px; }
+}@charset "utf-8";
