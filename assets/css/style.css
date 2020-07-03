@@ -155,7 +155,7 @@ h5 {
 }
 h1 {
     /* font-family: 'cursive'; */
-    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Saira Condensed', sans-serif;
     font-style: italic;
     font-size: 5.143rem;
     line-height: 5.5rem;
@@ -899,7 +899,7 @@ button.btn-md {
     background-color: transparent;
     transition: .5s;
     border: 0px solid rgba(234, 234, 234, 1);
-    font-family: 'montserratregular';
+    font-family: 'Saira Condensed', sans-serif;
 }
 button.btn-md:hover {
     background-color: transparent;
