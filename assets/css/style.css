@@ -875,7 +875,7 @@ input::-ms-input-placeholder {
     color:rgb(212, 182, 111);
     position: relative;
     z-index: 9;
-    border:5px solid rgba(173, 151, 71, 0.8);
+    border:5px solid rgba(212, 182, 111, 0.8);
     border-radius: 50%;
     font-size: 1.875rem;
 }
