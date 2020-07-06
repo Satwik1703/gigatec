@@ -1,6 +1,7 @@
 /* rgba(234, 234, 234, 1) white */
 /* rgba(173, 151, 71, 1) light gold */
 /* rgba(35, 31, 32, 1) black */
+/* rgb(212, 182, 111) gold */
 
 @font-face {
     font-family: BjornRegular;
@@ -584,7 +585,7 @@ input::-ms-input-placeholder {
     margin: 15px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:rgba(173, 151, 71, 1);
+    color:rgb(212, 182, 111);
     background: transparent;
 }
 .main_menu_bg .navbar {}
@@ -602,7 +603,7 @@ input::-ms-input-placeholder {
     padding-bottom: 20px;
     text-transform: uppercase;
     font-size: 0.875rem;
-    color: rgba(173, 151, 71, 1);
+    color: rgb(212, 182, 111);
 }
 .navbar-brand {
   transform: translateY(-50%);
@@ -666,7 +667,7 @@ input::-ms-input-placeholder {
 }
 .scrooldown a i{
     font-size:1.5rem;
-    color:rgba(173, 151, 71, 1);
+    color:rgb(212, 182, 111);
 }
 
 
@@ -848,7 +849,7 @@ input::-ms-input-placeholder {
 }
 .main_service .head_title h2{
     margin-right: 12%;
-    border-right: 6px solid rgba(173, 151, 71, 1);
+    border-right: 6px solid rgb(212, 182, 111);
     color:#B78628;
     padding-right: 5%;
 }
@@ -871,7 +872,7 @@ input::-ms-input-placeholder {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    color:rgba(173, 151, 71, 1);
+    color:rgb(212, 182, 111);
     position: relative;
     z-index: 9;
     border:5px solid rgba(173, 151, 71, 0.8);
@@ -883,7 +884,7 @@ input::-ms-input-placeholder {
     width: 96%;
 }
 .main_service .single_service.single_service_text .single_service_right_text h4{
-    color:rgba(173, 151, 71, 1);
+    color:rgb(212, 182, 111);
 }
 .main_service .single_service.single_service_text .single_service_right_text p{
     color:#999999;
@@ -904,7 +905,7 @@ button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 button.btn-md {
     text-align: center;
-    color: rgba(173, 151, 71, 1);
+    color: rgb(212, 182, 111);
     letter-spacing: 1px;
     margin: 0;
     font-size: 0.8125rem;
@@ -1399,7 +1400,7 @@ li .single_team_text p{
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.01);
 }
 .contact_info_content h3{
-    color:rgba(173, 151, 71, 1);
+    color:rgb(212, 182, 111);
     font-family: 'source_sans_prosemibold';
     margin-bottom: 19px;
 }
