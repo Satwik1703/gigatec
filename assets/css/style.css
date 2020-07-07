@@ -1533,7 +1533,7 @@ li .single_team_text p{
     position: relative;
     text-align:center;
     overflow: hidden;
-    box-shadow:0 0 5px #808080;
+    /* box-shadow:0 0 5px #808080; */
 }
 .demo
 {
@@ -1548,6 +1548,7 @@ li .single_team_text p{
     height: auto;
     transform: scale(1);
     transition: all 0.40s linear 0s;
+    border-radius: 25px;
 }
 
 .our-team:hover img{
