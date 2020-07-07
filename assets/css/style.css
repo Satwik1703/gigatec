@@ -213,6 +213,7 @@ p {
 }
 p:last-child {
     margin-bottom: 0px;
+    margin-left: 10%;
 }
 /*.home-wrap h1,*/
 .home-wrap h2,
