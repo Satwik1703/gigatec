@@ -685,7 +685,9 @@ input::-ms-input-placeholder {
 }
 .head_title .subtitle{
   color: rgba(234, 234, 234, 1);
-    margin-top:30px;
+  margin-top:30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #contact .subtitle{
   color: rgba(35, 31, 32, 1);
