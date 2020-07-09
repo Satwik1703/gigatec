@@ -12,11 +12,16 @@
     font-family: Connoisseurs;
     src: url("../fonts/Connoisseurs.otf") format("opentype");
 }
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
+}
+
 
 html,
 body {
     background-color: rgba(35, 31, 32, 1);
-    font-size: 16px;
+    font-size: 1rem;
     color: rgba(234, 234, 234, 1);
     width: 100%;
     padding: 0;
@@ -24,7 +29,8 @@ body {
     margin-right: 0;
     font-weight: 300;
     width:100%;
-    font-family: 'source_sans_proregular';
+    /* font-family: 'source_sans_proregular'; */
+    font-family: 'ProximaNova-Regular';
 }
 .preloader {
     position: fixed;
@@ -174,8 +180,10 @@ h2 {
     background-image: linear-gradient(to right, #b78628, #c8a146, #d8bc64, #e9d783, #fbf3a4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'BjornRegular';
-    font-size:2.571rem;
+    /* font-family: 'BjornRegular'; */
+    font-family: 'ProximaNova-Regular';
+    /* font-size:2.571rem; */
+    font-size: 2.125rem;
     line-height: 3rem;
     text-transform: uppercase;
 
@@ -189,8 +197,9 @@ h3 {
 }
 h4 {
     /* font-family: 'open_sanssemibold'; */
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 1.286rem;
+    /* font-family: 'Saira Condensed', sans-serif; */
+    font-family: 'ProximaNova-Regular';
+    font-size: 1.3125rem;
     line-height: 2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -206,8 +215,8 @@ h6 {
     margin-bottom: .9rem;
 }*/
 p {
-    line-height: 2rem;
-    font-size: 0.875rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
     text-align: justify;
 }
 p:last-child {
@@ -1513,7 +1522,7 @@ li .single_team_text p{
 }
 
 .scrollup:hover {
-    background: #e74c3c;
+    background: rgb(212, 182, 111);
     opacity: 1;
 }
 
