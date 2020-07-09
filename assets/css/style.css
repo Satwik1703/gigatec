@@ -16,6 +16,10 @@
     font-family: ProximaNovaAltRegular;
     src: url("../fonts/ProximaNovaAltRegular.ttf") format("opentype");
 }
+@font-face {
+    font-family: ProximaNovaBlack;
+    src: url("../fonts/Proxima Nova Black.otf") format("opentype");
+}
 
 
 html,
@@ -165,7 +169,7 @@ h5 {
 }
 h1 {
     /* font-family: Connoisseurs; */
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'ProximaNovaBlack';
     font-size: 6.143rem;
     line-height: 6.5rem;
     color:#fff;
@@ -181,7 +185,7 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* font-family: 'BjornRegular'; */
-    font-family: 'ProximaNovaAltRegular';
+    font-family: 'ProximaNovaBlack';
     /* font-size:2.571rem; */
     font-size: 38px;
     line-height: 3rem;
@@ -198,7 +202,7 @@ h3 {
 h4 {
     /* font-family: 'open_sanssemibold'; */
     /* font-family: 'Saira Condensed', sans-serif; */
-    font-family: 'ProximaNovaAltRegular';
+    font-family: 'ProximaNovaBlack';
     font-size: 25px;
     line-height: 1.42857143;
     margin-bottom: 1rem;
@@ -422,12 +426,12 @@ Button
     color: rgba(35, 31, 32, 1);
     letter-spacing: 1px;
     margin: 0;
-    font-size:0.8125rem;
+    font-size: 18px;
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
     border: 1px solid rgba(173, 151, 71, 0);
-    font-family: 'BjornRegular';
+    font-family: 'ProximaNovaAltRegular';
     padding: 0.8rem 3rem;
     transition: all 0.6s;
     border-radius: 2px;
@@ -900,7 +904,7 @@ input::-ms-input-placeholder {
 }
 .main_service .single_service.single_service_text .single_service_right_text p{
     color:#999999;
-    font-family: 'source_sans_proregular';
+    font-family: 'ProximaNovaAltRegular';
 }
 /*======================================================================
                     portfolio section css
@@ -926,7 +930,7 @@ button.btn-md {
     background-color: transparent;
     transition: .5s;
     border: 0px solid rgba(234, 234, 234, 1);
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'ProximaNovaBlack';
 }
 button.btn-md:hover {
     background-color: transparent;
