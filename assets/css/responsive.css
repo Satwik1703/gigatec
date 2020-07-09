@@ -1,7 +1,7 @@
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
     body {
-        font-size: 1.125rem;
+        font-size: 18px;
     }
     .main_blog_content .single_blog_area .single_blog_img{
         height: 415px;
