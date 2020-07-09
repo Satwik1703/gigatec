@@ -158,14 +158,12 @@ h5 {
     line-height: 2rem;
 }
 h1 {
-    /* font-family: 'cursive'; */
-    /* font-family: 'Courgette', cursive; */
-    /* font-style: italic; */
-    font-family: Connoisseurs;
-    font-size: 7.143rem;
-    line-height: 5.5rem;
+    /* font-family: Connoisseurs; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6.143rem;
+    line-height: 6.5rem;
     color:#fff;
-    letter-spacing: .2rem;
+    /* letter-spacing: .2rem; */
 }
 h2 {
   /* color: rgba(173, 151, 71, 1); */
@@ -210,6 +208,7 @@ h6 {
 p {
     line-height: 2rem;
     font-size: 0.875rem;
+    text-align: justify;
 }
 p:last-child {
     margin-bottom: 0px;
@@ -258,7 +257,7 @@ Section
 */
 .sections {
     padding-top:85px;
-    padding-bottom: 105px;
+    padding-bottom: 80px;
     /*overflow: hidden;*/
 }
 .sections.footer {
@@ -847,7 +846,7 @@ input::-ms-input-placeholder {
             service section Style
 ====================================================================*/
 .main_service .head_title{
-    padding: 100px 0px 40px 0px;
+    padding: 40px 0px 60px 0px;
     margin-bottom: 0px;
 }
 .main_service .head_title h2{
