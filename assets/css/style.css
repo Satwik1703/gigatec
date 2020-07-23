@@ -165,8 +165,8 @@ h5 {
 h1 {
     /* font-family: Connoisseurs; */
     font-family: 'BjornRegular';
-    font-size: 5.7rem;
-    line-height: 6.5rem;
+    font-size: 3.7rem;
+    line-height: 4.5rem;
     color:#fff;
     /* letter-spacing: .2rem; */
 }
@@ -733,8 +733,8 @@ input::-ms-input-placeholder {
     padding-top: 250px;
     padding-bottom: 250px;
     display: block;
+    margin-top: 10%;
 }
-
 
 .main_home h1{
     /* color: rgb(202, 175, 78); */
@@ -742,15 +742,64 @@ input::-ms-input-placeholder {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom:20px;
+    text-align: center;
+}
+/* ----------------------- */
+.yo h1{
+  position: absolute;
+  left: 5%;
+  top: 17%;
 }
 
+.js-nametag:nth-child(1){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate-reverse;
+}
+
+
+.js-nametag:nth-child(2){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate;
+}
+
+/* --- -------------*/
+.yo1{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.sub{
+  position: absolute;
+}
+.sub:nth-child(1){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate-reverse;
+}
+
+
+.sub:nth-child(2){
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate;
+}
+
+/* ------------------------- */
 .main_home p{
     color: rgba(234, 234, 234, 1);
     max-width: 60%;
     margin: 0 auto;
     padding-bottom: 30px;
     font-size:1.525rem;
-
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
@@ -1600,4 +1649,13 @@ li .single_team_text p{
   background-image: linear-gradient(to right, #b78628, #c8a146, #d8bc64, #e9d783, #fbf3a4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@keyframes fade{
+    0%,50% {
+      opacity: 0;
+}
+    100%{
+      opacity: 1;
+  }
 }

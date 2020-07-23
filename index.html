@@ -112,12 +112,19 @@
                                         <div class="single_home_slider">
                                             <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                                 <!-- <h3>Delivering and enabling mission success</h3> -->
-                                                <h1>Delivering and Enabling Mission Success</h1>
-                                                <div class="separator"></div>
-                                                <!-- <p>We bring 20+ years of experience and a proven track record supporting the Intelligence Community | Software Systems and Cloud Engineering | Data Science and Analytics | Cybersecurity and Computer Network Operations</p> -->
-                                                <div class="home_btn">
-                                                    <!-- <a href="#contact" class="btn btn-lg m_t_10">GET STARTED NOW</a> -->
-                                                    <!-- <a href="#feature" class="btn btn-default">LEARN MORE</a> -->
+                                                <!-- <h1 id='heading'>CSS Animations are</h1> -->
+
+
+                                                <div class="yo">
+                                                  <h1 class="js-nametag">Enabling and delivering mission success</h1>
+                                                  <h1 class="js-nametag">Intelligence | Energy | Integrity</h1>
+                                                </div>
+
+                                                <!-- <div class="separator"></div> -->
+
+                                                <div class="yo1">
+                                                  <p class='sub'>We empower our people to deliver exceptional customer outcomes</p>
+                                                  <p class='sub'>We hire are top performers who cultivate a culture of strong ethics that stand out</p>
                                                 </div>
 
                                             </div>
@@ -132,6 +139,23 @@
                     </div>
                 </div>
             </section><!--End of home section -->
+
+            <script>
+              var i = 0;
+              function changeHeading() {
+                if(i%2 == 0){
+                  document.getElementById("heading").innerHTML = "Enabling and delivering mission success";
+                  document.getElementById('sub').innerHTML = "We empower our people to deliver exceptional customer outcomes"
+                }
+                else{
+                  document.getElementById("heading").innerHTML = "Intelligence | Energy | Integrity";
+                  document.getElementById('sub').innerHTML = "We hire are top performers who cultivate a culture of strong ethics that stand out"
+                }
+                i++;
+                setTimeout(changeHeading, 5000);
+              }
+              /* changeHeading(); */
+            </script>
 
 
             <!--feature section -->
@@ -536,7 +560,7 @@
                 </div>
             </section><!-- End of contact section -->
 
-            
+
         </div>
 
         <!-- START SCROLL TO TOP  -->
