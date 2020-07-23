@@ -1,9 +1,9 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
-    $(window).load(function () {
+    $(document).ready(function () {
         $(".loaded").fadeOut();
-        $(".preloader").delay(1000).fadeOut("slow");
+        $(".preloader").fadeOut("slow");
     });
     /*---------------------------------------------*
      * Mobile menu
@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-// slick slider active 
+// slick slider active
     $(".main_home_slider").slick({
         dots: false,
         infinite: true,
@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
 
 
 //---------------------------------------------
-// Counter 
+// Counter
 //---------------------------------------------
 
     $('.statistic-counter').counterUp({
@@ -156,6 +156,3 @@ $(document).on("scroll", function () {
         $("nav").removeClass("small");
     }
 });
-
-
-
