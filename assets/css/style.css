@@ -4,18 +4,9 @@
 }
 
 @font-face {
-    font-family: Connoisseurs;
-    src: url("../fonts/Connoisseurs.otf") format("opentype");
-}
-@font-face {
     font-family: ProximaNovaAltRegular;
     src: url("../fonts/ProximaNovaAltRegular.ttf") format("opentype");
 }
-@font-face {
-    font-family: ProximaNovaBlack;
-    src: url("../fonts/Proxima Nova Black.otf") format("opentype");
-}
-
 
 html,
 body {
@@ -171,11 +162,6 @@ h1 {
     /* letter-spacing: .2rem; */
 }
 h2 {
-  /* color: rgba(173, 151, 71, 1); */
-    /* font-family: 'source_sans_probold'; */
-    /* font-family: 'Saira Condensed', sans-serif; */
-    /* font-family: 'Oswald', sans-serif; */
-    /* background-image: -webkit-gradient(linear,0% 0%,50% 100%,from(#B78628),to(#FBF3A4)); */
     background-image: linear-gradient(to right, #b78628, #c8a146, #d8bc64, #e9d783, #fbf3a4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -717,7 +703,6 @@ input::-ms-input-placeholder {
     height: 0;
     border-bottom: 86px solid rgb(217, 193, 111);
     border-right: 680px solid transparent;
-
 }
 .home_skew_border:before{
     position: absolute;
@@ -729,6 +714,23 @@ input::-ms-input-placeholder {
     border-bottom: 86px solid rgb(217, 193, 111);
     border-left: 680px solid transparent;
 }
+@media screen and (max-width: 900px) {
+  .home_skew_border:after{
+    border-right: 380px solid transparent;
+  }
+  .home_skew_border:before{
+    border-left: 380px solid transparent;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .home_skew_border:after{
+    border-right: 1200px solid transparent;
+  }
+  .home_skew_border:before{
+    border-left: 1200px solid transparent;
+  }
+}
+
 .main_home{
     padding-top: 250px;
     padding-bottom: 250px;
