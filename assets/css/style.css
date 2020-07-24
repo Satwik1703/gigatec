@@ -264,8 +264,8 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top:85px;
-    padding-bottom: 80px;
+    padding-top:75px;
+    padding-bottom: 70px;
     /*overflow: hidden;*/
 }
 .sections.footer {
@@ -702,7 +702,7 @@ input::-ms-input-placeholder {
 }
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat center center;
+    background: url(../images/homebg.png) no-repeat center center;
     background-size: cover;
 }
 .home_skew_border{
